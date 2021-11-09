@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workouttracker"
   useUnifiedTopology: true
 });
 
-// added rputes
+// added routes
 app.use(require("./routes/api.js"));
 app.use(require("./routes/html.js"));
 
