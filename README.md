@@ -5,7 +5,6 @@
   * [Usage](#usage)
   * [Installation](#installation)
   * [Technology](#technology)
-  * [Screenshot](#screenshot)
 
 # Description
 
