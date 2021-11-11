@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workouttracker", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://bootcamp123:<bootcamp123>@bootcamp.ny320.mongodb.net/workouttracker?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,
