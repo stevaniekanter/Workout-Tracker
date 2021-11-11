@@ -31,4 +31,3 @@ Express
 MongoDB
 Mongoose
 ```
-# Screenshot
