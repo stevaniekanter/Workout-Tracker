@@ -4,8 +4,8 @@ const Workout = require("../models/Workout");
 // post route to create workout
 router.post("/api/workouts", ({ body }, res) => {
   Workout.create(body)
-    .then((dbWorkout) => {
-      res.json(dbWorkout);
+    .then((workoutData) => {
+      res.json(workoutData);
     })
     .catch((err) => {
       res.json(err);
@@ -19,8 +19,8 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
     {$push: {exercises: body,},
     },
   )
-    .then((dbWorkout) => {
-      res.json(dbWorkout);
+    .then((workoutData) => {
+      res.json(workoutData);
     })
     .catch((err) => {
       res.json(err);
@@ -37,8 +37,8 @@ router.get("/api/workouts/range", (req, res) => {
       },
     },
   ])
-    .then((dbWorkout) => {
-      res.json(dbWorkout);
+    .then((workoutData) => {
+      res.json(workoutData);
     })
     .catch((err) => {
       res.json(err);
@@ -55,9 +55,9 @@ router.get("/api/workouts", ({ query }, res) => {
       },
     },
   ])
-    .then((dbWorkout) => {
-      console.log(dbWorkout);
-      res.json(dbWorkout);
+    .then((workoutData) => {
+      console.log(workoutData);
+      res.json(workoutData);
     })
     .catch((err) => {
       res.json(err);
