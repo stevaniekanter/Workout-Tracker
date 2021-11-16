@@ -5,6 +5,7 @@
   * [Usage](#usage)
   * [Installation](#installation)
   * [Technology](#technology)
+  * [Screenshot](#screenshot)
 
 # Description
 
@@ -30,3 +31,6 @@ Express
 MongoDB
 Mongoose
 ```
+# Screenshot
+
+![workout](assets/budget.png)
