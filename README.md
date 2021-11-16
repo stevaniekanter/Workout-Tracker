@@ -33,4 +33,4 @@ Mongoose
 ```
 # Screenshot
 
-![workout](assets/budget.png)
+![workout](assets/workout.png)
